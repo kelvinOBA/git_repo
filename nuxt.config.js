@@ -43,7 +43,10 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
+  env: {
+    GIT_HUB_KEY: process.env.GIT_HUB_KEY
 
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
