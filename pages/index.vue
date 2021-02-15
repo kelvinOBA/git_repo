@@ -105,7 +105,7 @@ let vm = this
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: 'Bearer ' + 'eba760ab49287bcdf8d5011885566786ab18c7ab',
+          Authorization: 'Bearer ' + process.env.GIT_HUB_KEY,
         },
         body: JSON.stringify({ query }),
       })
