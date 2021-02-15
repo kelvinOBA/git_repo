@@ -208,10 +208,10 @@ let vm = this
 .content__section input {
   min-width: 400px;
   border-radius: 4px;
-  min-height: 30px;
-  border: 1px solid #f2f2f2;
+  min-height: 40px;
+  border: 1px solid #d0d0d0;
   margin-bottom: 20px;
-
+  min-height: 35px;
   padding: 5px;
 }
 .content__section__repo_div {
@@ -281,6 +281,7 @@ margin: 0 auto;
   }
   .content__section input {
 margin-top: 20px;
+    min-width: 100%;
   }
   .content__section div {
 
@@ -293,7 +294,7 @@ margin-top: 20px;
 
 .navbar__section {
 
-  width:440px;
+  min-width:100%;
   overflow-y: scroll;
       justify-content: end;
 }
